@@ -35,7 +35,7 @@ def draw():
         screen.draw.text(f'GAME OVER', center=(WIDTH//2, HEIGHT//2), color='red', fontsize=100)
         return
     if win:
-        screen.draw.text(f'ПОБЕА!', center=(WIDTH//2, HEIGHT//2), color='green', fontsize=100)
+        screen.draw.text(f'ПОБЕДА!', center=(WIDTH//2, HEIGHT//2), color='green', fontsize=100)
         return
     astronaut.draw()
     ship.draw()
